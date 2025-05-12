@@ -1,0 +1,41 @@
+.calculator {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .results {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  

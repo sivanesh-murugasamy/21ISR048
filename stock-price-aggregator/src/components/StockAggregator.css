@@ -1,0 +1,46 @@
+.stock-aggregator {
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 1.5rem;
+    background: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .controls input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .controls button {
+    padding: 0.5rem 1rem;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #155aaf;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .result {
+    background: #f1f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
